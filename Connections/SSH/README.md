@@ -9,12 +9,13 @@ ssh-keygen -t rsa -b 2048 -C "nameofthekey"
 ```
 
 -t : Specifies the type of key to create. The possible values are “dsa”, “ecdsa”, “ecdsa-sk”, “ed25519”, “ed25519-sk”, or “rsa”
+
 -b : Specifies the number of bits in the key to create
+
 -C : Provides a new comment
 
-ssh-keygen: https://man.openbsd.org/ssh-keygen.1
 
-3)Copy the contents of the public key generated . Public key will be in the format of 'nameofthekey.pub'
+3)Copy the contents of the public key generated.Public key will be in the format of 'nameofthekey.pub'
 4)Navigate to the IAM user from the AWS-console
 5)Select our desired IAM user -> Security Credentials
 6)Select "Upload SSH public key" under SSH keys for AWS CodeCommit
