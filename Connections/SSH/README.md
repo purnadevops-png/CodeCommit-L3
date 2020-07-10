@@ -3,6 +3,8 @@
 1) Navigate to the .ssh folder on your work-station [ cd~/.ssh ] 
 2) Generate a public and a private key using the below command
 
+ssh-keygen: https://man.openbsd.org/ssh-keygen.1
+
 ```
 ssh-keygen -t rsa -b 2048 -C "nameofthekey"
 
