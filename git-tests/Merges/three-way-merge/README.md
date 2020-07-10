@@ -35,3 +35,5 @@ Merge made by the 'recursive' strategy.
  create mode 100644 test3.html
  create mode 100644 testbranchagainagain.txt
  ```
+
+Instead of just moving the branch pointer forward, Git creates a new snapshot that results from this three-way merge and automatically creates a new commit that points to it. This is referred to as a merge commit,
