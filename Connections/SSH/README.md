@@ -16,15 +16,22 @@ ssh-keygen -t rsa -b 2048 -C "nameofthekey"
 
 
 3)Copy the contents of the public key generated.Public key will be in the format of 'nameofthekey.pub'
+
 4)Navigate to the IAM user from the AWS-console
+
 5)Select our desired IAM user -> Security Credentials
+
 6)Select "Upload SSH public key" under SSH keys for AWS CodeCommit
+
 7)Paste the contents of the public key
+
 8)We now see an SSH key ID generated. Take a note of this SSH Key ID
 
-9) Navigate to our workstation
-10) cd ~/.ssh
-11) Create a config file [ vi config]
+9)Navigate to our workstation
+
+10)cd ~/.ssh
+
+11)Create a config file [ vi config]
 
 ```
 Host git-codecommit.*.amazonaws.com
