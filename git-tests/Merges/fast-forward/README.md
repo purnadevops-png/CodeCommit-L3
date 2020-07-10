@@ -22,8 +22,37 @@ git log
 
 6) Create a new branch and checkout to it 
 
-``` git checkout -b branch1
+``` 
+git checkout -b branch1
+
+```
+7) You will see the files from master copied to the branch. Create a new file called branchfile1.html
+
+8) Add and commit again with a different commit message
+
+9) Run git log. You will observe that the commits pointed by the master and different than the commits pointed by the branch 
+
+10) Now, lets checkout to our master
+```
+git checkout master
 ```
 
-7) 
+11)Merge the branch1 to master
+
+```
+git merge branch1
+```
+
+You will see an output as follows:
+
+```
+Updating 089da6e..2f12be6
+Fast-forward
+ branchfile1.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branchfile1.html
+```
+
+
+
 
