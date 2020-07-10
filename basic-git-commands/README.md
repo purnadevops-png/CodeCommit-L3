@@ -66,4 +66,7 @@ git log
 ```
 git status
 ```
- 
+13) Rebasing commits
+```
+git rebase
+```
