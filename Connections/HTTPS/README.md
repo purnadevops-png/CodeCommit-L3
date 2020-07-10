@@ -1,3 +1,4 @@
+
 # HTTPS Username & Password
 1) Create an IAM user with CodeCommitFullAccess.
 2) Navigate to the IAM console -> IAM user -> Security Credentials 
